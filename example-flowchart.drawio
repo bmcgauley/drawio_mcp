@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2024-11-07T00:00:00.000Z" agent="MCP Draw.io Generator" version="24.0.0" type="device">
+  <diagram name="User Authentication Flow" id="diagram-1">
+    <mxGraphModel dx="1394" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+    <mxCell id="cell-2" value="Start" style="fillColor=#d5e8d4;strokeColor=#000000;ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+      <mxGeometry x="100" y="50" width="120" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="cell-3" value="Enter Credentials" style="fillColor=#dae8fc;strokeColor=#000000;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+      <mxGeometry x="100" y="150" width="140" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="cell-4" value="Valid?" style="fillColor=#fff2cc;strokeColor=#000000;rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+      <mxGeometry x="100" y="250" width="120" height="80" as="geometry"/>
+    </mxCell>
+    <mxCell id="cell-5" value="Grant Access" style="fillColor=#ffffff;strokeColor=#000000;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+      <mxGeometry x="100" y="370" width="140" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="cell-6" value="Show Error" style="fillColor=#ffffff;strokeColor=#000000;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+      <mxGeometry x="300" y="250" width="140" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="cell-7" value="End" style="fillColor=#d5e8d4;strokeColor=#000000;ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+      <mxGeometry x="100" y="470" width="120" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="cell-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="cell-2" target="cell-3">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="cell-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="cell-3" target="cell-4">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="cell-10" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="cell-4" target="cell-5">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="cell-11" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="cell-4" target="cell-6">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="cell-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="cell-5" target="cell-7">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="cell-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="cell-6" target="cell-3">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+  </root>
+</mxGraphModel>
+  </diagram>
+</mxfile>
