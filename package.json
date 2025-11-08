@@ -1,0 +1,37 @@
+{
+  "name": "drawio-diagram-generator",
+  "version": "1.0.0",
+  "description": "MCP server for generating draw.io diagrams from specifications",
+  "type": "module",
+  "main": "build/index.js",
+  "bin": {
+    "drawio-diagram-generator": "build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "prepare": "npm run build",
+    "watch": "tsc --watch"
+  },
+  "keywords": [
+    "mcp",
+    "drawio",
+    "diagrams",
+    "flowcharts",
+    "uml"
+  ],
+  "author": "Brian McGauley",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "zod": "^3.24.1",
+    "pako": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/pako": "^2.0.3",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
